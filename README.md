@@ -1,8 +1,8 @@
 # Projet Typo3 [DAWIN]
 
-#### Starter pack link
+#### Starter link
 
-    Starter link : https://github.com/pitchart/dawin-typo3-cms-distribution
+    https://github.com/pitchart/dawin-typo3-cms-distribution
 
 ##### Launch a PHP server
 
