@@ -11,7 +11,7 @@
 The TYPO3 website is available at http://localhost:8080/ and the backend at http://localhost:8080/typo3/
 
 
-## Create by
+## Created by
 
 - Evan Sevin 
 - Pierre Wrobewski 
