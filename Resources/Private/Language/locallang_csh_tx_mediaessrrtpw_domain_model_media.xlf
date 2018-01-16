@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-16T14:57:02Z" product-name="media_essrrtpw">
+		<header/>
+		<body>
+			<trans-unit id="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="files.description">
+				<source>fichier</source>
+			</trans-unit>
+			<trans-unit id="date_publication.description">
+				<source>datePublication</source>
+			</trans-unit>
+			<trans-unit id="name.description">
+				<source>nom</source>
+			</trans-unit>
+			<trans-unit id="reviews.description">
+				<source>reviews</source>
+			</trans-unit>
+			<trans-unit id="author.description">
+				<source>auteurs</source>
+			</trans-unit>
+			<trans-unit id="categories.description">
+				<source>categorie</source>
+			</trans-unit>
+			<trans-unit id="type.description">
+				<source>categorie</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

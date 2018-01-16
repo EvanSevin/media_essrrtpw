@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-16T14:57:02Z" product-name="media_essrrtpw">
+		<header/>
+		<body>
+			<trans-unit id="note.description">
+				<source>note</source>
+			</trans-unit>
+			<trans-unit id="author.description">
+				<source>auteur</source>
+			</trans-unit>
+			<trans-unit id="comment.description">
+				<source>commentaire</source>
+			</trans-unit>
+			<trans-unit id="date.description">
+				<source>date</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
