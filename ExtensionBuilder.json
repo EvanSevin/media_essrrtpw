@@ -3,8 +3,8 @@
         {
             "config": {
                 "position": [
-                    927,
-                    52
+                    1397,
+                    15
                 ]
             },
             "name": "New Model Object",
@@ -73,7 +73,7 @@
                             "propertyIsExcludeField": true,
                             "propertyIsRequired": true,
                             "propertyName": "datePublication",
-                            "propertyType": "NativeDate",
+                            "propertyType": "Date",
                             "uid": "7197153535"
                         },
                         {
@@ -141,8 +141,8 @@
         {
             "config": {
                 "position": [
-                    285,
-                    458
+                    222,
+                    558
                 ]
             },
             "name": "New Model Object",
@@ -201,8 +201,8 @@
         {
             "config": {
                 "position": [
-                    29,
-                    444
+                    76,
+                    215
                 ]
             },
             "name": "New Model Object",
@@ -268,7 +268,7 @@
                             "propertyIsExcludeField": true,
                             "propertyIsRequired": true,
                             "propertyName": "date",
-                            "propertyType": "NativeDate",
+                            "propertyType": "Date",
                             "uid": "447365468290"
                         }
                     ]
@@ -281,8 +281,8 @@
         {
             "config": {
                 "position": [
-                    595,
-                    320
+                    587,
+                    321
                 ]
             },
             "name": "New Model Object",
@@ -363,8 +363,8 @@
         {
             "config": {
                 "position": [
-                    131,
-                    38
+                    1324,
+                    559
                 ]
             },
             "name": "New Model Object",
@@ -413,8 +413,8 @@
         {
             "config": {
                 "position": [
-                    44,
-                    244
+                    951,
+                    558
                 ]
             },
             "name": "New Model Object",
@@ -600,7 +600,11 @@
         }
     ],
     "log": {
+<<<<<<< HEAD
         "last_modified": "2018-01-23 01:29",
+=======
+        "last_modified": "2018-01-16 05:27",
+>>>>>>> d3f00205edeb34cd548d4932c00d0520c87347ff
         "extension_builder_version": "8.7.0",
         "be_user": " (1)"
     }

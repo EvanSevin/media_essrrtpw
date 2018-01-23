@@ -9,7 +9,7 @@ CREATE TABLE tx_mediaessrrtpw_domain_model_media (
 	description text,
 	image int(11) unsigned NOT NULL default '0',
 	files int(11) unsigned DEFAULT '0' NOT NULL,
-	date_publication date DEFAULT '0000-00-00',
+	date_publication int(11) DEFAULT '0' NOT NULL,
 	name varchar(255) DEFAULT '' NOT NULL,
 	reviews int(11) unsigned DEFAULT '0' NOT NULL,
 	author int(11) unsigned DEFAULT '0' NOT NULL,
@@ -103,7 +103,7 @@ CREATE TABLE tx_mediaessrrtpw_domain_model_review (
 	note int(11) DEFAULT '0' NOT NULL,
 	author varchar(255) DEFAULT '' NOT NULL,
 	comment text,
-	date date DEFAULT '0000-00-00',
+	date int(11) DEFAULT '0' NOT NULL,
 
 	tstamp int(11) unsigned DEFAULT '0' NOT NULL,
 	crdate int(11) unsigned DEFAULT '0' NOT NULL,
