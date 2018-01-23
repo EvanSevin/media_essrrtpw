@@ -4,7 +4,7 @@
             "config": {
                 "position": [
                     927,
-                    52
+                    51
                 ]
             },
             "name": "New Model Object",
@@ -73,7 +73,7 @@
                             "propertyIsExcludeField": true,
                             "propertyIsRequired": true,
                             "propertyName": "datePublication",
-                            "propertyType": "NativeDate",
+                            "propertyType": "Date",
                             "uid": "7197153535"
                         },
                         {
@@ -142,7 +142,7 @@
             "config": {
                 "position": [
                     285,
-                    458
+                    457
                 ]
             },
             "name": "New Model Object",
@@ -202,7 +202,7 @@
             "config": {
                 "position": [
                     29,
-                    444
+                    443
                 ]
             },
             "name": "New Model Object",
@@ -268,7 +268,7 @@
                             "propertyIsExcludeField": true,
                             "propertyIsRequired": true,
                             "propertyName": "date",
-                            "propertyType": "NativeDate",
+                            "propertyType": "Date",
                             "uid": "447365468290"
                         }
                     ]
@@ -282,7 +282,7 @@
             "config": {
                 "position": [
                     595,
-                    320
+                    319
                 ]
             },
             "name": "New Model Object",
@@ -364,7 +364,7 @@
             "config": {
                 "position": [
                     131,
-                    38
+                    37
                 ]
             },
             "name": "New Model Object",
@@ -414,7 +414,7 @@
             "config": {
                 "position": [
                     44,
-                    244
+                    243
                 ]
             },
             "name": "New Model Object",
@@ -600,7 +600,7 @@
         }
     ],
     "log": {
-        "last_modified": "2018-01-16 02:57",
+        "last_modified": "2018-01-16 05:26",
         "extension_builder_version": "8.7.0",
         "be_user": " (1)"
     }

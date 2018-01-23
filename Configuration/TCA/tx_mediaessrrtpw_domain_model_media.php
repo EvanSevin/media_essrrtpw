@@ -217,11 +217,10 @@ return [
             'exclude' => true,
             'label' => 'LLL:EXT:media_essrrtpw/Resources/Private/Language/locallang_db.xlf:tx_mediaessrrtpw_domain_model_media.date_publication',
             'config' => [
-                'dbType' => 'date',
                 'type' => 'input',
                 'size' => 7,
                 'eval' => 'date,required',
-                'default' => '0000-00-00'
+                'default' => time()
             ],
         ],
         'name' => [
