@@ -29,7 +29,7 @@ Otherwise your changes will be overwritten the next time you save the extension 
 	<f:for each="{authors}" as="author">
     <tr>
 			<td><f:link.action action="show" arguments="{author : author}"> {author.name}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{author : author}"> {author.bio}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{author : author}"> {author.bio -> f:format.html()}</f:link.action></td>
 			<td>
                 <f:for each="{author.pictures}" as="picture">
                     <f:image maxHeight="250" treatIdAsReference="1" image="{picture}"/>
