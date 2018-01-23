@@ -21,6 +21,14 @@ namespace ESSRRTPW\MediaEssrrtpw\Controller;
 class AuthorController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
     /**
+     * authorRepository
+     *
+     * @var \ESSRRTPW\MediaEssrrtpw\Domain\Repository\AuthorRepository
+     * @inject
+     */
+    protected $authorRepository = null;
+
+    /**
      * action list
      *
      * @return void

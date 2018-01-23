@@ -40,7 +40,7 @@ class AuthorControllerTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
             ->disableOriginalConstructor()
             ->getMock();
 
-        $authorRepository = $this->getMockBuilder(\::class)
+        $authorRepository = $this->getMockBuilder(\ESSRRTPW\MediaEssrrtpw\Domain\Repository\AuthorRepository::class)
             ->setMethods(['findAll'])
             ->disableOriginalConstructor()
             ->getMock();

@@ -300,7 +300,7 @@
                     "addDeletedField": true,
                     "addHiddenField": true,
                     "addStarttimeEndtimeFields": true,
-                    "aggregateRoot": false,
+                    "aggregateRoot": true,
                     "categorizable": false,
                     "description": "Auteur",
                     "mapToTable": "",
@@ -600,7 +600,7 @@
         }
     ],
     "log": {
-        "last_modified": "2018-01-16 02:57",
+        "last_modified": "2018-01-23 01:29",
         "extension_builder_version": "8.7.0",
         "be_user": " (1)"
     }
