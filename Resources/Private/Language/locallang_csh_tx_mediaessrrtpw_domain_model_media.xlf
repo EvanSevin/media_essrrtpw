@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-<<<<<<< HEAD
 	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-23T13:29:44Z" product-name="media_essrrtpw">
-=======
-	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-16T17:27:31Z" product-name="media_essrrtpw">
->>>>>>> d3f00205edeb34cd548d4932c00d0520c87347ff
 		<header/>
 		<body>
 			<trans-unit id="description.description">

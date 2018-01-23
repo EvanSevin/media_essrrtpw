@@ -600,11 +600,7 @@
         }
     ],
     "log": {
-<<<<<<< HEAD
         "last_modified": "2018-01-23 01:29",
-=======
-        "last_modified": "2018-01-16 05:27",
->>>>>>> d3f00205edeb34cd548d4932c00d0520c87347ff
         "extension_builder_version": "8.7.0",
         "be_user": " (1)"
     }
