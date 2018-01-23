@@ -3,6 +3,8 @@
         {
             "config": {
                 "position": [
+                    927,
+                    51
                     1397,
                     15
                 ]
@@ -141,8 +143,13 @@
         {
             "config": {
                 "position": [
+<<<<<<< HEAD
+                    285,
+                    457
+=======
                     222,
                     558
+>>>>>>> 30669934c4ae240e8fc6edcedeafd05a8296b70c
                 ]
             },
             "name": "New Model Object",
@@ -201,8 +208,13 @@
         {
             "config": {
                 "position": [
+<<<<<<< HEAD
+                    29,
+                    443
+=======
                     76,
                     215
+>>>>>>> 30669934c4ae240e8fc6edcedeafd05a8296b70c
                 ]
             },
             "name": "New Model Object",
@@ -281,8 +293,13 @@
         {
             "config": {
                 "position": [
+<<<<<<< HEAD
+                    595,
+                    319
+=======
                     587,
                     321
+>>>>>>> 30669934c4ae240e8fc6edcedeafd05a8296b70c
                 ]
             },
             "name": "New Model Object",
@@ -363,8 +380,13 @@
         {
             "config": {
                 "position": [
+<<<<<<< HEAD
+                    131,
+                    37
+=======
                     1324,
                     559
+>>>>>>> 30669934c4ae240e8fc6edcedeafd05a8296b70c
                 ]
             },
             "name": "New Model Object",
@@ -413,8 +435,13 @@
         {
             "config": {
                 "position": [
+<<<<<<< HEAD
+                    44,
+                    243
+=======
                     951,
                     558
+>>>>>>> 30669934c4ae240e8fc6edcedeafd05a8296b70c
                 ]
             },
             "name": "New Model Object",
@@ -600,7 +627,11 @@
         }
     ],
     "log": {
+<<<<<<< HEAD
+        "last_modified": "2018-01-16 05:26",
+=======
         "last_modified": "2018-01-23 01:29",
+>>>>>>> 30669934c4ae240e8fc6edcedeafd05a8296b70c
         "extension_builder_version": "8.7.0",
         "be_user": " (1)"
     }
