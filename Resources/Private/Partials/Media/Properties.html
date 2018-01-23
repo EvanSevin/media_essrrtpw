@@ -5,6 +5,7 @@
 			<f:translate key="tx_mediaessrrtpw_domain_model_media.description" />
 		</td>
 		<td>
+		{media.description}
 		</td>
 	</tr>
 	<tr>
@@ -12,6 +13,7 @@
 			<f:translate key="tx_mediaessrrtpw_domain_model_media.image" />
 		</td>
 		<td>
+				<f:image src="{media.image.originalResource.publicUrl}" width="200"/>
 		</td>
 	</tr>
 	<tr>
@@ -19,6 +21,11 @@
 			<f:translate key="tx_mediaessrrtpw_domain_model_media.files" />
 		</td>
 		<td>
+				<f:for each="{media.files}" as="file" >
+					<a href="{file.originalResource.publicUrl}">
+						{file.originalResource.name}
+					</a>
+				</f:for>
 		</td>
 	</tr>
 	<tr>
@@ -26,6 +33,7 @@
 			<f:translate key="tx_mediaessrrtpw_domain_model_media.date_publication" />
 		</td>
 		<td>
+		{media.datePublication -> f:format.date()}
 		</td>
 	</tr>
 	<tr>
@@ -33,6 +41,7 @@
 			<f:translate key="tx_mediaessrrtpw_domain_model_media.name" />
 		</td>
 		<td>
+		{media.name}
 		</td>
 	</tr>
 </table>
