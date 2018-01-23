@@ -1,4 +1,5 @@
 <?php
+use ESSRRTPW\MediaEssrrtpw\Domain\Model\Social;
 return [
     'ctrl' => [
         'title' => 'LLL:EXT:media_essrrtpw/Resources/Private/Language/locallang_db.xlf:tx_mediaessrrtpw_domain_model_social',
@@ -116,7 +117,8 @@ return [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
                 'items' => [
-                    ['-- Label --', 0],
+                    ['Facebook',Social::FACEBOOK],
+                    ['Twitter', Social::TWITTER],
                 ],
                 'size' => 1,
                 'maxitems' => 1,
@@ -132,7 +134,7 @@ return [
                 'eval' => 'trim,required'
             ],
         ],
-    
+
         'author' => [
             'config' => [
                 'type' => 'passthrough',

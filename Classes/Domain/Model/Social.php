@@ -20,6 +20,8 @@ namespace ESSRRTPW\MediaEssrrtpw\Domain\Model;
  */
 class Social extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 {
+    const FACEBOOK = 0;
+    const TWITTER = 1;
     /**
      * titre
      *
