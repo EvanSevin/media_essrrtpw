@@ -30,9 +30,17 @@ Otherwise your changes will be overwritten the next time you save the extension 
 
 	<f:for each="{medias}" as="media">
 		<tr>
-			<td><f:link.action action="show" arguments="{media : media}"> {media.description}</f:link.action></td>
-			<td><f:image maxHeight="250" treatIdAsReference="1" image="{media.image}"/></td>
-			<td><f:link.action action="show" arguments="{media : media}"> {media.files}</f:link.action></td>
+			<td>
+                <f:link.action action="show" arguments="{author : author}"> {media.description -> f:format.html()}</f:link.action>
+            </td>
+			<td>
+                <f:image maxHeight="250" treatIdAsReference="1" image="{media.image}"/>
+            </td>
+			<td>
+                <f:for each="{media.files}" as="data">
+                    <!-- <f:image maxHeight="250" treatIdAsReference="1" image="{data}"/> -->
+                </f:for>
+            </td>
 			<td><f:link.action action="show" arguments="{media : media}"> {media.datePublication -> f:format.date()}</f:link.action></td>
 			<td><f:link.action action="show" arguments="{media : media}"> {media.name}</f:link.action></td>
 			<td><f:link.action action="edit" arguments="{media : media}">Edit</f:link.action></td>
