@@ -1,0 +1,16 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div class="col-4 card">
+                <f:image class="card-img-top" treatIdAsReference="1" image="{media.image}"/>
+                <div class="card-body">
+                        <h5 class="card-title">
+                        <f:link.action action="show"> {media.name}</f:link.action>
+                        </h5>
+                        <p class="card-text">
+                                <f:link.action action="show" > {media.description -> f:format.html()}</f:link.action>
+                        </p>
+                        <div class="col-12">
+                                <f:link.action action="show" > {media.datePublication -> f:format.date()}</f:link.action>
+                        </div>
+                </div>
+        </div>
+</html>

@@ -32,20 +32,7 @@ Otherwise your changes will be overwritten the next time you save the extension 
 
 <div class="row mediaList">
 <f:for each="{medias}" as="media">
-	<div class="col-4 card">
-        	<f:image class="card-img-top" treatIdAsReference="1" image="{media.image}"/>
-		<div class="card-body">
-			<h5 class="card-title">
-			<f:link.action action="show" arguments="{media: media}"> {media.name}</f:link.action>
-			</h5>
-			<p class="card-text">
-				<f:link.action action="show" arguments="{media : media}"> {media.description -> f:format.html()}</f:link.action>
-			</p>
-			<div class="col-12">
-				<f:link.action action="show" arguments="{media : media}"> {media.datePublication -> f:format.date()}</f:link.action>
-			</div>
-		</div>
-	</div>
+	<f:render partial="Media/ListProperties" arguments="{media:media}" />
 </f:for>
 </div>
 </f:section>
