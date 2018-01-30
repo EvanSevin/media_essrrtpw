@@ -55,9 +55,10 @@ class MediaController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
      *
      * @return void
      */
-    public function searchAction(ESSRRTPW\MediaEssrrtpw\Domain\Query\Search $search)
+    public function searchAction(\ESSRRTPW\MediaEssrrtpw\Domain\Query\Search $search)
     {
-
+        $medias = $this->mediaRepository->search($search);
+        $this->view->assignMultiple(['search' => $search,"medias"=>$medias]);
     }
 
     /**
