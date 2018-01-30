@@ -17,11 +17,11 @@ Otherwise your changes will be overwritten the next time you save the extension 
 
 <f:flashMessages />
 
-<table  class="tx_mediaessrrtpw" >
+<table  class="tx_mediaessrrtpw list" >
 	<tr>
 		<th><f:translate key="tx_mediaessrrtpw_domain_model_media.description" /></th>
 		<th><f:translate key="tx_mediaessrrtpw_domain_model_media.image" /></th>
-		<th><f:translate key="tx_mediaessrrtpw_domain_model_media.files" /></th>
+		<!--<th><f:translate key="tx_mediaessrrtpw_domain_model_media.files" /></th>-->
 		<th><f:translate key="tx_mediaessrrtpw_domain_model_media.date_publication" /></th>
 		<th><f:translate key="tx_mediaessrrtpw_domain_model_media.name" /></th>
 		<th> </th>
@@ -36,19 +36,19 @@ Otherwise your changes will be overwritten the next time you save the extension 
 			<td>
                 <f:image maxHeight="250" treatIdAsReference="1" image="{media.image}"/>
             </td>
-			<td>
+			<!--<td>
                 <f:for each="{media.files}" as="data">
-                    <!-- <f:image maxHeight="250" treatIdAsReference="1" image="{data}"/> -->
+                    <f:image maxHeight="250" treatIdAsReference="1" image="{data}"/>
                 </f:for>
-            </td>
+            </td>-->
 			<td><f:link.action action="show" arguments="{media : media}"> {media.datePublication -> f:format.date()}</f:link.action></td>
 			<td><f:link.action action="show" arguments="{media : media}"> {media.name}</f:link.action></td>
-			<td><f:link.action action="edit" arguments="{media : media}">Edit</f:link.action></td>
-			<td><f:link.action action="delete" arguments="{media : media}">Delete</f:link.action></td>
+			<td><f:link.action action="edit" class="btn" arguments="{media : media}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" class="btn" arguments="{media : media}">Delete</f:link.action></td>
 		</tr>
 	</f:for>
 </table>
 
-<f:link.action action="new">New Media</f:link.action>
+<f:link.action action="new" class="btn">New Media</f:link.action>
 </f:section>
 </html>
