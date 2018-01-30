@@ -15,43 +15,36 @@ Otherwise your changes will be overwritten the next time you save the extension 
 <f:section name="main">
 <h1>Listing for Media</h1>
 
-<f:flashMessages />
-	
+<f:flashMessages />	
 	<f:form class="form-inline" action="search"  enctype="multipart/form-data"  name="search" object="{search}">
 		<div class="form-group">
-				<label for="value">
-					value
-				</label>
-			<f:form.textfield property="string" /><br />
+			<label for="value">Search</label>
+			<f:form.textfield class="form-control" property="string" /><br />
 		</div>
 		<div class="form-group">
-			<label for="category">
-				category
-			</label>
-			<f:form.textfield property="category"  /><br />
+			<label for="category">Category</label>
+			<f:form.textfield class="form-control" property="category"/><br />
 		</div>
 		<div class="form-group">
-			<f:form.submit value="Search" />
+			<f:form.submit value="Search" class="btn btn-primary" />
 		</div>
-
 	</f:form>
 
-<div class="row">
+<div class="row mediaList">
 <f:for each="{medias}" as="media">
-	<div class="col-4">
-	
-	<div class="col-12">
-	<f:link.action action="show" arguments="{media : media}"> {media.description -> f:format.html()}</f:link.action>
-	</div>
-	<div class="col-12">
-	<f:image maxHeight="250" treatIdAsReference="1" image="{media.image}"/>
-	</div>
-	<div class="col-12">
-	<f:link.action action="show" arguments="{media : media}"> {media.datePublication -> f:format.date()}</f:link.action>
-	</div>
-	<div class="col-12">
-	<f:link.action action="show" arguments="{media : media}"> {media.name}</f:link.action>
-	</div>
+	<div class="col-4 card">
+        	<f:image class="card-img-top" treatIdAsReference="1" image="{media.image}"/>
+		<div class="card-body">
+			<h5 class="card-title">
+			<f:link.action action="show" arguments="{media: media}"> {media.name}</f:link.action>
+			</h5>
+			<p class="card-text">
+				<f:link.action action="show" arguments="{media : media}"> {media.description -> f:format.html()}</f:link.action>
+			</p>
+			<div class="col-12">
+				<f:link.action action="show" arguments="{media : media}"> {media.datePublication -> f:format.date()}</f:link.action>
+			</div>
+		</div>
 	</div>
 </f:for>
 </div>
