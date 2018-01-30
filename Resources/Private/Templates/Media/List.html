@@ -19,7 +19,9 @@ Otherwise your changes will be overwritten the next time you save the extension 
 <div class="row">
 <f:for each="{medias}" as="media">
 	<div class="col-4">
-	
+	<div class="col-12">
+	<f:link.action action="show" arguments="{media: media}"> {media.name}</f:link.action>
+	</div>
 	<div class="col-12">
 	<f:link.action action="show" arguments="{media : media}"> {media.description -> f:format.html()}</f:link.action>
 	</div>
