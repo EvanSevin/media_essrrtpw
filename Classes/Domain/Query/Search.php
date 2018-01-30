@@ -2,11 +2,19 @@
   namespace ESSRRTPW\MediaEssrrtpw\Domain\Query;
 
   class Search{
+
+    /**
+     * @var string
+     */
     protected $string;
-    protected $category;
 
       /**
-       * @return mixed
+       * @var string
+       */
+      protected $category;
+
+      /**
+       * @return string
        */
       public function getString()
       {
@@ -14,7 +22,7 @@
       }
 
       /**
-       * @param mixed $string
+       * @param string $string
        */
       public function setString($string)
       {
@@ -22,7 +30,7 @@
       }
 
       /**
-       * @return mixed
+       * @return string
        */
       public function getCategory()
       {
@@ -30,7 +38,7 @@
       }
 
       /**
-       * @param mixed $category
+       * @param string $category
        */
       public function setCategory($category)
       {
