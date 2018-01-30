@@ -4,6 +4,6 @@
 <f:widget.paginate objects="{medias}" as="paginatedMedias"
                    configuration="{itemsPerPage: 5, insertAbove: 1, insertBelow: 1, maximumNumberOfLinks: 10}">
     <f:for each="{paginatedMedias}" as="media">
-        
+        <f:render partial="Media/ListProperties" arguments="{media:media}" />
     </f:for>
 </f:widget.paginate>
