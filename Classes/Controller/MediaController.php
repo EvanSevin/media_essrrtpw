@@ -55,7 +55,7 @@ class MediaController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
      *
      * @return void
      */
-    public function searchAction()
+    public function searchAction(ESSRRTPW\MediaEssrrtpw\Domain\Query\Search $search)
     {
 
     }
