@@ -5,6 +5,9 @@
 			<f:translate key="tx_mediaessrrtpw_domain_model_author.name" />
 		</td>
 		<td>
+			<f:format.html>
+				{author.name}
+			</f:format.html>
 		</td>
 	</tr>
 	<tr>
@@ -12,6 +15,9 @@
 			<f:translate key="tx_mediaessrrtpw_domain_model_author.bio" />
 		</td>
 		<td>
+			<f:format.html>
+				{author.bio}
+			</f:format.html>
 		</td>
 	</tr>
 	<tr>
@@ -19,6 +25,9 @@
 			<f:translate key="tx_mediaessrrtpw_domain_model_author.pictures" />
 		</td>
 		<td>
+			<f:for each="{author.pictures}" as="picture">
+				<f:image maxHeight="250" treatIdAsReference="1" image="{picture}"/>
+			</f:for>
 		</td>
 	</tr>
 </table>
